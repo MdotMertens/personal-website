@@ -1,6 +1,6 @@
 const siteMeta = {
-	title: "Astro Theme Cactus",
-	description: "An opinionated starter theme for Astro",
+	title: "Maurice Mertens",
+	description: "Homepage and Blog of Maurice Mertens",
 	lang: "en-GB",
 	ogLocale: "en_GB",
 	githubUrl: "https://github.com/chrismwilliams/astro-theme-cactus",

@@ -6,7 +6,7 @@ import { sortMDByDate } from "@/utils";
 import type { Post } from "@/data/posts";
 const url = new URL(Astro.request.url);
 
-const MAX_POSTS = 5;
+const MAX_POSTS = 10;
 const allPosts = await Astro.glob<Post>("./posts/*.mdx");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
