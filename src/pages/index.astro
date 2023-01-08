@@ -14,9 +14,9 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
+		<h1 class="title">Hi, I am Maurice!</h1>
 		<SocialList />
-		<h1 class="title mb-4">Hi, I am Maurice!</h1>
-		<p class="mb-2">
+		<p class="mb-2 mt-2">
 As a software engineer at a fashion company, I have the opportunity to work on a variety of projects that leverage data to drive the success of the business. Utilizing serverless technologies provided by AWS, I use a range of tools and technologies to extract and analyze data and develop solutions.
 </p>
 
@@ -27,21 +27,11 @@ I have a passion for learning new frameworks and staying up-to-date with the lat
                 <p class="mb-4">
                 If you want to know more check out my 
                   <a
-                  href=/valuesandideologies
+                  href=/values
                   class="text-[color:var(--theme-link)] sm:hover:underline"
-                  aria-current={url.pathname === "/valuesandideologies" ? "page" : false}
-                  rel="prefetch">
-                  values and ideologies
-		 </a>
-and
-                  <a
-                  href=/valuesandideologies
-                  class="text-[color:var(--theme-link)] sm:hover:underline"
-                  aria-current={url.pathname === "/valuesandideologies" ? "page" : false}
-                  rel="prefetch">
-                  what I look for in professional relationships.
-		 </a>
-                </p>
+                  aria-current={url.pathname === "/values" ? "page" : false}
+                  rel="prefetch">values</a>.
+		  </p>
 	</section>
 	<section>
 		<h2 class="title  text-xl">Skills</h2>
